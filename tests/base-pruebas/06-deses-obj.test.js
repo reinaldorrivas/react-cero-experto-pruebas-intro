@@ -23,7 +23,7 @@ describe("Prueba JS - Desestructuración Objetos:", () => {
       personajeEntradaPruebas
     );
 
-    const [nombreClave, anios] = returnedObjectFromOriginalFunction;
+    const {nombreClave, anios} = returnedObjectFromOriginalFunction;
 
     expect(objetoEsperadoPruebas).toStrictEqual(
       returnedObjectFromOriginalFunction
