@@ -1,9 +1,9 @@
-import { getHeroeById } from "./bases/08-imp-exp";
+import { getHeroById } from "./08-imp-exp";
 
-const getHeroeByIdAsync = (id) => {
+export const getHeroByIdAsync = (id) => {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
-      const p1 = getHeroeById(id);
+      const p1 = getHeroById(id);
       if (p1) {
         resolve(p1);
       } else {
@@ -12,5 +12,3 @@ const getHeroeByIdAsync = (id) => {
     }, 2000);
   });
 };
-
-getHeroeByIdAsync(1).then(console.log).catch(console.warn);
