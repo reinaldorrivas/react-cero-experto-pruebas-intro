@@ -1,20 +1,22 @@
-const getImagen = async () => {
+const apiKey = "2ThNkZ6iOsDfCgWy9ClHinqKecsnb79w";
+
+export const asyncRandomGifRequest = async () => {
+  const randomGifRequest = await fetch(
+    `http://api.giphy.com/v1/gifs/random?api_key=${apiKey}`
+  );
   try {
-    const apiKey = "C1khQe3Z7R1W2lfTO9myKeuShdqFYSGC";
-    const resp = await fetch(
-      `http://api.giphy.com/v1/gifs/random?api_key=${apiKey}`
-    );
-    const { data } = await resp.json();
+    const dataImages = await randomGifRequest.json();
 
-    const { url } = data.images.original;
+    const {
+      data: {
+        images: {
+          original: { url },
+        },
+      },
+    } = dataImages;
 
-    const img = document.createElement("img");
-    img.src = url;
-    document.body.append(img);
+    return url;
   } catch (error) {
-    // manejo del error
-    console.error(error);
+    console.warn(error);
   }
 };
-
-getImagen();
