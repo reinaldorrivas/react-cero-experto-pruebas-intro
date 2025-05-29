@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1748527330122" clover="3.2.0">
+  <project timestamp="1748527330122" name="All files">
+    <metrics statements="26" coveredstatements="25" conditionals="3" coveredconditionals="3" methods="13" coveredmethods="13" elements="42" coveredelements="41" complexity="0" loc="26" ncloc="26" packages="2" files="8" classes="8"/>
+    <package name="base-pruebas">
+      <metrics statements="25" coveredstatements="24" conditionals="3" coveredconditionals="3" methods="13" coveredmethods="13"/>
+      <file name="02-template-string.js" path="/home/lalo/projects/udemy/fernando-herrera/react/react-cero-experto-pruebas-intro/src/base-pruebas/02-template-string.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="1" type="stmt"/>
+      </file>
+      <file name="05-funciones.js" path="/home/lalo/projects/udemy/fernando-herrera/react/react-cero-experto-pruebas-intro/src/base-pruebas/05-funciones.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+      </file>
+      <file name="06-deses-obj.js" path="/home/lalo/projects/udemy/fernando-herrera/react/react-cero-experto-pruebas-intro/src/base-pruebas/06-deses-obj.js">
+        <metrics statements="2" coveredstatements="2" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="2" count="1" type="stmt"/>
+      </file>
+      <file name="07-deses-arr.js" path="/home/lalo/projects/udemy/fernando-herrera/react/react-cero-experto-pruebas-intro/src/base-pruebas/07-deses-arr.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+      </file>
+      <file name="08-imp-exp.js" path="/home/lalo/projects/udemy/fernando-herrera/react/react-cero-experto-pruebas-intro/src/base-pruebas/08-imp-exp.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+        <line num="3" count="12" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="20" type="stmt"/>
+      </file>
+      <file name="09-promesas.js" path="/home/lalo/projects/udemy/fernando-herrera/react/react-cero-experto-pruebas-intro/src/base-pruebas/09-promesas.js">
+        <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+      </file>
+      <file name="11-async-await.js" path="/home/lalo/projects/udemy/fernando-herrera/react/react-cero-experto-pruebas-intro/src/base-pruebas/11-async-await.js">
+        <metrics statements="8" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="data">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="heroes.js" path="/home/lalo/projects/udemy/fernando-herrera/react/react-cero-experto-pruebas-intro/src/data/heroes.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="2" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
