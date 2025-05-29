@@ -3,8 +3,7 @@ import PropTypes from "prop-types";
 export const FirstApp = ({ title, subTitle, name }) => {
   return (
     <>
-      <h1 data-testid="test-title"> {title} </h1>
-      <p>{subTitle}</p>
+      <h1 data-testid="test-title">{title}</h1>
       <p>{subTitle}</p>
       <p>{name}</p>
     </>
@@ -17,6 +16,7 @@ FirstApp.propTypes = {
 };
 
 FirstApp.defaultProps = {
+  title: "No hay título.",
+  subTitle: "No hay subtítulo.",
   name: "Fernando Herrera",
-  subTitle: "No hay subtítulo",
 };
