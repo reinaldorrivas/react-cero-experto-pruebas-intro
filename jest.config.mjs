@@ -5,7 +5,7 @@
 
 /** @type {import('jest').Config} */
 export default {
-  testEnvironment: "jsdom",
+  testEnvironment: "jest-environment-jsdom",
   setupFiles: ["./jest.setup.js"],
   clearMocks: true,
   collectCoverage: true,
