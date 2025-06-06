@@ -3,10 +3,13 @@
 exports[`Prueba Unitaria - FirstApp: Debe coincidir con la captura (Snapshot): 1`] = `
 <div>
   <h1
-    data-testid="test-title"
+    data-testid="data-title"
   >
     ¡Hola a todos!
   </h1>
+  <p>
+    ¡Toca estudiar!
+  </p>
   <p>
     ¡Toca estudiar!
   </p>

@@ -26,17 +26,26 @@ describe("Prueba Unitaria - FirstApp:", () => {
     expect(getByText(title)).toBeTruthy();
   });
 
-  test("Debe mostrar el título en un <h1></h1>:", () => {
+  test("Debe de estar el tìtulo en la etiqueta correspondiente", () => {
     const title = "¡Hola a todos!";
     const subTitle = "¡Toca estudiar!";
     const name = "René Rivas";
 
-    const { container } = render(
+    const { getByTestId } = render(
       <FirstApp title={title} subTitle={subTitle} name={name} />
     );
 
-    const h1 = container.querySelector("h1");
+    expect(getByTestId("data-title").innerHTML).toContain(title);
+  });
+  test("Debe de existir múltiples concurrencias del subtítulo:", () => {
+    const title = "¡Hola a todos!";
+    const subTitle = "¡Toca estudiar!";
+    const name = "René Rivas";
 
-    expect(h1.innerHTML).toContain(title);
+    const { getAllByText } = render(
+      <FirstApp title={title} subTitle={subTitle} name={name} />
+    );
+
+    expect(getAllByText(subTitle).length).toBeGreaterThan(1);
   });
 });
